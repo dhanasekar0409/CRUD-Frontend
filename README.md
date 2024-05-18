@@ -1,8 +1,51 @@
-# React + Vite
+# FullStackApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FullStackApp is a web application built with Spring Boot for the backend and React for the frontend. It provides a seamless full-stack development experience for building modern web applications.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+
+## Features
+
+- **Spring Boot Backend:**
+
+  - RESTful API endpoints.
+  - Database integration with Spring Data JPA.
+
+- **React Frontend:**
+
+  - Responsive and dynamic user interface.
+  - State management using React Hooks.
+  - Integration with backend APIs.
+
+- **Full Stack:**
+  - Seamless integration between the backend and frontend.
+  - Modern and efficient development workflow.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Java Development Kit (JDK) installed.
+- Node.js and npm installed.
+- IDE with support for Spring Boot and React development.
+
+## Getting Started
+
+Follow these steps to set up and run the FullStackApp locally:
+
+1. Clone the backend repository:
+
+   ```bash
+   git clone https://github.com/dhanasekar0409/CRUD-Backend.git
+
+   ```
+
+2. Clone the Frontend repository:
+
+   ```bash
+    git clone https://github.com/dhanasekar0409/CRUD-Frontend.git
+   ```
