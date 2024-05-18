@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const AddUser = () => {
@@ -72,9 +72,9 @@ const AddUser = () => {
               <button type="submit" className="btn btn-outline-primary">
                 Submit
               </button>
-              <button type="submit" className="btn btn-outline-danger mx-2">
+              <Link to="/" className="btn btn-outline-danger mx-2">
                 Cancel
-              </button>
+              </Link>
             </form>
           </div>
         </div>
