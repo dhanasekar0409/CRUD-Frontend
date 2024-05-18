@@ -1,8 +1,9 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./layout/NavBar";
 import HomePage from "./pages/HomePage";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AddUser from "./users/AddUser";
+import "./App.css";
 
 const App = () => {
   return (
