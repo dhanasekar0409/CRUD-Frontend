@@ -43,7 +43,9 @@ const HomePage = () => {
                   <td>{user.username}</td>
                   <td>{user.email}</td>
                   <td>
-                    <button className="btn btn-primary mx-2">view</button>
+                    <Link to={`/viewUser/${user.id}`} className="btn btn-primary mx-2">
+                      view
+                    </Link>
                     <Link to={`/editUser/${user.id}`} className="btn btn-outline-primary mx-2">
                       edit
                     </Link>
